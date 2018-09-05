@@ -57,7 +57,7 @@ Location: /GoCanvas/test-output/emailable-report.html
 
 ## Test Video
 
-[https://youtu.be/qXRf_GRkUnI](https://youtu.be/qXRf_GRkUnI)
+[https://youtu.be/aG_uBUvKfd8](https://youtu.be/aG_uBUvKfd8)
 
 
 ## Appium Server Configuration
