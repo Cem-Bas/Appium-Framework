@@ -48,9 +48,7 @@ Sign your name
 ```
 ### TestNG Results
 Location: /GoCanvas/test-output/emailable-report.html
-```
-[Screenshot](testNGScreenshot.png)
-```
+<img align="left" src="https://github.com/Cem-Bas/Appium-Framework/blob/master/testNGScreenshot.png">
 
 ### Test Video
 
