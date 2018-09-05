@@ -2,7 +2,9 @@
 
 SDET Challenge 
 
+
 ### Requested Actions
+
 ```diff
 + DONE
  Sign in as qa+628@gocanvas.com | password: canvas
@@ -46,15 +48,17 @@ Time: select 3:34
 + DONE
 Sign your name
 ```
-### TestNG Results
+
+## TestNG Results
+
 Location: /GoCanvas/test-output/emailable-report.html
 <img align="left" src="https://github.com/Cem-Bas/Appium-Framework/blob/master/testNGScreenshot.png">
 
-### Test Video
 
-```
-Youtube Link here
-```
+## Test Video
+
+[https://youtu.be/x-sU-qTPhrM](https://youtu.be/x-sU-qTPhrM)
+
 
 ## Built With
 
