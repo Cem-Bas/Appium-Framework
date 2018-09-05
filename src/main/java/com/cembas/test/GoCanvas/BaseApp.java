@@ -55,7 +55,6 @@ public class BaseApp
 			throw new RuntimeException("appium driver could not be initialised for device ");
 		}
 		System.out.println("Driver in initdriver is : " + driver);
-
 	}
 
 	@AfterClass

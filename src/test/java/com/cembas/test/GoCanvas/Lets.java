@@ -135,8 +135,10 @@ public class Lets extends BaseApp {
 		while (!monthShort.equals(month)) {
 			// move to the next month
 			on.nextButton.click();
+			
 			// pick the day
 			childs.get(d).click();
+			
 			// Check the calendar
 			monthParts = on.dateHeader.getText().split(" ");
 			monthShort = monthParts[1];
@@ -196,9 +198,14 @@ public class Lets extends BaseApp {
 		on.capturePhotoButton.click();
 
 		on.cameraApp.click();
-
-		on.takeImageButton.click();
-
+		
+		try {
+			Thread.sleep(3000);
+			on.takeImageButton.click();
+		} catch (InterruptedException e) {
+			e.printStackTrace();
+			System.out.println("Camera app was too slow");
+		}
 		on.okayButton.click();
 	}
 
