@@ -13,10 +13,6 @@ import org.testng.annotations.BeforeClass;
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.remote.AndroidMobileCapabilityType;
 
-/**
- * Hello world!
- *
- */
 public class BaseApp
 
 {
@@ -45,11 +41,10 @@ public class BaseApp
 		cap.setCapability("autoGrantPermissions", true);
 		cap.setCapability("appPackage", "com.gocanvas");
 		cap.setCapability(AndroidMobileCapabilityType.APP_WAIT_ACTIVITY, "com.gocanvas.library.*");
-
-		//cap.setCapability("noReset", true);
+		// cap.setCapability("noReset", true);
 
 		String serverUrl = "http://127.0.0.1:4723/wd/hub";
-		
+
 		try {
 			System.out.println("Argument to driver object : " + serverUrl);
 

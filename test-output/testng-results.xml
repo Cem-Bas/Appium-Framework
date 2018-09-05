@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="89868" started-at="2018-09-05T14:51:48Z" finished-at="2018-09-05T14:53:18Z">
+  <suite name="Default suite" duration-ms="115419" started-at="2018-09-05T16:25:45Z" finished-at="2018-09-05T16:27:41Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="89868" started-at="2018-09-05T14:51:48Z" finished-at="2018-09-05T14:53:18Z">
+    <test name="Default test" duration-ms="115419" started-at="2018-09-05T16:25:45Z" finished-at="2018-09-05T16:27:41Z">
       <class name="com.cembas.test.GoCanvas.AppTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.cembas.test.GoCanvas.AppTest@335eadca]" name="setup" is-config="true" duration-ms="17731" started-at="2018-09-05T14:51:48Z" finished-at="2018-09-05T14:52:06Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.cembas.test.GoCanvas.AppTest@335eadca]" name="setup" is-config="true" duration-ms="19535" started-at="2018-09-05T16:25:45Z" finished-at="2018-09-05T16:26:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="mobileChallenge()[pri:0, instance:com.cembas.test.GoCanvas.AppTest@335eadca]" name="mobileChallenge" duration-ms="70452" started-at="2018-09-05T14:52:06Z" finished-at="2018-09-05T14:53:17Z">
+        <test-method status="PASS" signature="mobileChallenge()[pri:0, instance:com.cembas.test.GoCanvas.AppTest@335eadca]" name="mobileChallenge" duration-ms="93761" started-at="2018-09-05T16:26:05Z" finished-at="2018-09-05T16:27:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- mobileChallenge -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.cembas.test.GoCanvas.AppTest@335eadca]" name="tearDown" is-config="true" duration-ms="1667" started-at="2018-09-05T14:53:17Z" finished-at="2018-09-05T14:53:18Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.cembas.test.GoCanvas.AppTest@335eadca]" name="tearDown" is-config="true" duration-ms="2097" started-at="2018-09-05T16:27:38Z" finished-at="2018-09-05T16:27:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.cembas.test.GoCanvas.AppTest -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
