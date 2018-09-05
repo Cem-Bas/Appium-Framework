@@ -60,6 +60,25 @@ Location: /GoCanvas/test-output/emailable-report.html
 [https://youtu.be/x-sU-qTPhrM](https://youtu.be/x-sU-qTPhrM)
 
 
+## Appium Server Configuration
+
+```
+For the Camera Test: appium --relaxed-security
+```
+
+## Appium Desktop Configuration
+
+```
+{
+  "automationName": "Appium",
+  "platformName": "Android",
+  "platformVersion": "8.0",
+  "deviceName": "98891a375732524831",
+  "app": "/Users/cem/Downloads/com.gocanvas_2018-08-13.apk",
+  "autoGrantPermissions": true
+}
+```
+
 ## Built With
 
 * [Appium](http://appium.io/) - Open Source Test Automation Framework
