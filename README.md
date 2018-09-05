@@ -49,7 +49,7 @@ Sign your name
 ### TestNG Results
 Location: /GoCanvas/test-output/emailable-report.html
 ```
-![Screenshot](testNGScreenshot.png)
+[Screenshot](testNGScreenshot.png)
 ```
 
 ### Test Video
