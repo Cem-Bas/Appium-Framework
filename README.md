@@ -83,7 +83,7 @@ For the Camera Test: appium --relaxed-security
 
 * [Appium](http://appium.io/) - Open Source Test Automation Framework
 * [Maven](https://maven.apache.org/) - Dependency Management
-* [TestNG](https://rometools.github.io/rome/) - Testing Framework
+* [TestNG](https://testng.org/doc/index.html) - Testing Framework
 
 ## Suggestions
 
