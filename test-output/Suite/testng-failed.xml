@@ -5,7 +5,9 @@
     <classes>
       <class name="com.cembas.test.GoCanvas.AppTest">
         <methods>
-          <include name="testApp"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="mobileChallenge"/>
         </methods>
       </class> <!-- com.cembas.test.GoCanvas.AppTest -->
     </classes>

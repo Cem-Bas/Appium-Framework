@@ -13,10 +13,6 @@ public class On {
         PageFactory.initElements(new AppiumFieldDecorator(driver), this);
     }
 	
-	public boolean isDisplayed(WebElement webElement) {
-        return webElement.isDisplayed();
-    }
-    
     @AndroidFindBy(id = "username")
 	WebElement usernameBox;
     

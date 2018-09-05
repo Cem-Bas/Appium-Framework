@@ -21,7 +21,7 @@ public class AppTest extends BaseApp {
 
 		lets.loginWith("qa+628@gocanvas.com", "canvas");
 		
-		lets.waitAndClick(on.SDETProjectName);
+		on.SDETProjectName.click();
 		
 		lets.fillNameInfo("Cem Bas");
 		
@@ -38,9 +38,6 @@ public class AppTest extends BaseApp {
 		lets.scrollAndClick("Capture Signature");
 		
 		lets.drawSignature();
-		
-		
-		Thread.sleep(60);
 
 	}
 }

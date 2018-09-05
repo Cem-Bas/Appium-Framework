@@ -15,6 +15,7 @@ public class Lets extends BaseApp {
 	On on = new On(driver);
 
 	public void waitAndClick(WebElement element) {
+		//add wait
 		element.click();
 	}
 
@@ -149,10 +150,9 @@ public class Lets extends BaseApp {
 	public void drawSignature() {	
 		horizontalSwipeByPercentage(0.6, 0.3, 0.5);
 	    on.doneButton.click();
-		
 	}
 	
-	//Horizontal Swipe by percentages
+	//Horizontal line by percentages
     @SuppressWarnings("rawtypes")
 	public void horizontalSwipeByPercentage (double startPercentage, double endPercentage, double anchorPercentage) {
         Dimension size = driver.manage().window().getSize();
