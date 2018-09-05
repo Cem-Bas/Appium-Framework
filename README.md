@@ -31,7 +31,7 @@ Tap on the Checkbox
 ```
 
 ```diff
-- PAUSED
++ DONE
 Capture a photo (from your device or from the camera)
 ```
 ```diff
@@ -57,7 +57,7 @@ Location: /GoCanvas/test-output/emailable-report.html
 
 ## Test Video
 
-[https://youtu.be/x-sU-qTPhrM](https://youtu.be/x-sU-qTPhrM)
+[https://youtu.be/qXRf_GRkUnI](https://youtu.be/qXRf_GRkUnI)
 
 
 ## Appium Server Configuration
